@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f7f8;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333;
+}
+.container {
+  padding-top: 20vh;
+}
+h1 {
+  font-size: 3em;
+}
+.black {
+  color: #000;
+}
+.green {
+  color: #00aa95;
+}
+.btn-konfirmasi {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #00aa95;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.banner {
+  background: #ddd;
+  padding: 20px;
+  text-align: center;
+}
+.timer {
+  background: red;
+  color: white;
+  display: inline-block;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.headline {
+  font-size: 24px;
+  font-weight: bold;
+  color: yellow;
+  background: black;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 10px 0;
+}
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+.menu-grid div {
+  background: #e0f7f5;
+  padding: 10px;
+  border-radius: 8px;
+}
+.gaya-karyawan {
+  padding: 20px;
+}
+.gaya-karyawan .images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.img-placeholder {
+  width: 100px;
+  height: 60px;
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
