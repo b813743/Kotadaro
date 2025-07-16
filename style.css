@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f6f8;
+  color: #333;
+  text-align: center;
+}
+.container {
+  margin-top: 25vh;
+}
+h1 {
+  font-size: 48px;
+}
+.black {
+  color: black;
+}
+.teal {
+  color: #00a89d;
+}
+p {
+  font-size: 20px;
+  color: #00a89d;
+}
+.btn {
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 12px 24px;
+  background: #00a89d;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.btn.outline {
+  background: transparent;
+  border: 2px solid #00a89d;
+  color: #00a89d;
+}
