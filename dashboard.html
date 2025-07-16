@@ -123,13 +123,29 @@
     </div>
   </div>
 
-  <div class="bottom-nav">
-    <div>Pusat Iklan</div>
-    <div>Disimpan</div>
-    <div>Tim</div>
-    <div>Penunjukan</div>
-    <div>Pribadi</div>
-  </div>
+  <!-- Tambahkan di bagian <body> sebelum </body> -->
+<div class="bottom-nav">
+  <div>Pusat Iklan</div>
+  <div>Disimpan</div>
+  <div onclick="showGroupButton()" style="cursor: pointer; font-weight: bold;">Tim</div>
+  <div>Penunjukan</div>
+  <div>Pribadi</div>
+</div>
+
+<!-- Tombol Gabung Grup (muncul setelah klik "Tim") -->
+<div id="group-join" style="display: none; text-align:center; margin: 20px;">
+  <a href="https://chat.whatsapp.com/K4PR19WbbMADkeTdJVsj1y" target="_blank"
+     style="display: inline-block; background: #00b3ac; color: white; padding: 12px 20px;
+            border-radius: 10px; text-decoration: none; font-weight: bold;">
+    Gabung Grup
+  </a>
+</div>
+
+<script>
+  function showGroupButton() {
+    document.getElementById('group-join').style.display = 'block';
+  }
+  </script>
 
 </body>
 </html>
